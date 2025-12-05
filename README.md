@@ -1,4 +1,4 @@
-# Urban Catastrophe Simulation
+# Agent-based disaster response simulation
 #### Agent-based simulation modeling emergent crowd behaviors and first-responder decision-making during large-scale urban disasters
 
 For the past couple of months, I've been swimming in the shallow pools of simulation with my Wildfire Project, which gave me the confidence to try swimming in a small lake. I recently stumbled upon the Agent-based modeling lake on Google Maps, and it gave me the idea to rewind history a bit and ask myself, "What historical event would this kind of simulation have helped prepare for?".
