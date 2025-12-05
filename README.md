@@ -78,7 +78,7 @@ I believe that systems should always be architected as if they were going to be 
 ### Agents [The Beings]
 - Contains agent classes, managing agent goals and behaviours (see Agent Behaviours)
 - Agents are passed information about their surroundings from World Module
-- Posts agent updates (e.g. injured or unfortunately deceased)
+- Posts agent updates (e.g. injured or dearly departed)
 
 ### World [The Environment]
 - Contains the World class
