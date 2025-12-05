@@ -190,6 +190,10 @@ def select_paramedic(agent):
         - May force assignment if all paramedics at capacity
     """
     print("Trying paramedic selection")
+
+    if world.num_paramedics == 0:
+        return
+
     agent_location: tuple = agent.location
     # makes a sorted copy of the list of all paramedics, sorted from closest to fartheset
     temp_paramedics = sorted(world.paramedics, key= lambda x: max(abs(x.location[0] - agent_location[0]), abs(x.location[1] - agent_location[1])))

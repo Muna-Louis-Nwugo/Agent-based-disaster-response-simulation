@@ -272,7 +272,6 @@ class Civilian(Agent):
 
         self.pattern: Civilian.Pattern = self.Pattern.WANDER
         self.health_state: Civilian.HealthState = self.HealthState.HEALTHY
-        self.max_speed: float = 0  # TODO: come up with maximum speed equation. 
         self.road_graph = road_graph
         self.time_to_worsen: float = math.inf
         self.healing: bool = False
