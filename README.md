@@ -22,18 +22,18 @@ cd urban_catastrophe_simulation
 
 Install Dependencies
 ```bash
-pip install numpy pygame
+pip3 install numpy pygame
 ```
 
 ### Run Simulation
 **Visual Mode (Pygame):**
 ```bash
-python Render.py
+python3 Render.py
 ```
 
 **Console Mode (ASCII):**
 ```bash
-python World.py
+python3 World.py
 ```
 
 ### Controls
